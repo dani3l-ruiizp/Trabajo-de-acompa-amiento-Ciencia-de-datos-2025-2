@@ -28,7 +28,7 @@ Los datos fueron descargados en formato CSV y posteriormente procesados para su 
 Los datos fueron cargados utilizando la librería Pandas, a partir de archivos CSV descargados directamente desde la plataforma Datos Abiertos Colombia.
 En esta etapa se realizó una exploración inicial del conjunto de datos para identificar su estructura, tipos de variables y posibles inconsistencias.
 
-3. Limpieza de datos (Cuaderno 2)
+2. Limpieza de datos (Cuaderno 2)
 Durante la etapa de limpieza se realizaron los siguientes procesos:
   - Eliminación de registros duplicados.
   - Revisión y manejo de valores nulos en variables relevantes.
