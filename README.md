@@ -24,16 +24,17 @@ Los datos fueron descargados en formato CSV y posteriormente procesados para su 
 
 ## Metodología
 1. Carga de datos (Cuaderno 1)
+
 Los datos fueron cargados utilizando la librería Pandas, a partir de archivos CSV descargados directamente desde la plataforma Datos Abiertos Colombia.
 En esta etapa se realizó una exploración inicial del conjunto de datos para identificar su estructura, tipos de variables y posibles inconsistencias.
 
-2. Limpieza de datos (Cuaderno 2)
+3. Limpieza de datos (Cuaderno 2)
 Durante la etapa de limpieza se realizaron los siguientes procesos:
   - Eliminación de registros duplicados.
   - Revisión y manejo de valores nulos en variables relevantes.
   - Normalización de nombres de columnas para facilitar el análisis.
   - Verificación de la consistencia de variables regulatorias como estado del registro, forma farmacéutica y titular.
-  - Las funciones de limpieza se implementaron en el archivo src/limpieza.py y se aplicaron desde el cuaderno 02_limpieza.ipynb.
+Las funciones de limpieza se implementaron en el archivo src/limpieza.py y se aplicaron desde el cuaderno 02_limpieza.ipynb.
 
 3. Análisis estadístico (Cuaderno 3)
 Se llevaron a cabo análisis estadísticos descriptivos enfocados en variables categóricas, incluyendo:
